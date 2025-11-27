@@ -20,9 +20,9 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/app.mjs",
-      "require": "./dist/app.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/app.js"
     },
     "./css": {
       "import": "./dist/app.css",
